@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ccc;
+    min-width: 300px;
+}
+
+main {
+    padding: .5em 0;
+}
+
+#wrapper h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+ul {
+    float: left;
+}
+
+aside {
+    float: right;
+    width: 120px;
+    position: relative;
+    right: 20px;
+}
+
+.asideImg {
+    width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper p {
+    margin: .5em;
+    padding: .5em;
+    border: 2px dotted GoldenRod;
+}
+
+@media screen and (min-width: 480px) {
+    #wrapper {
+        width: 480px;
+        border: 2px dashed DarkSlateGray;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
